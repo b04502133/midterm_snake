@@ -1,9 +1,4 @@
----
-title: 'midterm_snake'
-disqus: hackmd
----
-
-Mideterm_snake
+Midterm_snake
 ===
 
 ## 簡介
