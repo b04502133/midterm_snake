@@ -207,9 +207,9 @@ const Snake = () => {
         name: state.name,
         score: state.count,
       }
-      axios.post('http://localhost:4000/records/add', newRecord)
+      axios.post('http://localhost:5000/records/add', newRecord)
         .then(res => console.log(res.data));
-      const result = await axios.get('http://localhost:4000/records/')
+      const result = await axios.get('http://localhost:5000/records/')
         dispatch({
           type: 'SET_RECORD',
           payload: result.data
