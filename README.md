@@ -15,7 +15,7 @@ Mideterm_snake
 ---
 * 安裝設定
 ```gherkin=
-clone git@github.com:b04502133/midterm_snake.git
+git clone git@github.com:b04502133/midterm_snake.git
 cd midterm_snake
 cd backend && npm install && npm start
 cd ../frontend && npm install && npm start
