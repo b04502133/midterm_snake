@@ -17,8 +17,9 @@ Mideterm_snake
 ```gherkin=
 git clone git@github.com:b04502133/midterm_snake.git
 cd midterm_snake
-cd backend && npm install && npm start
-cd ../frontend && npm install && npm start
+cd backend && npm install 
+cd client && npm install 
+cd .. && npm run dev
 ```
 * 操作說明
     1. 打入姓名
