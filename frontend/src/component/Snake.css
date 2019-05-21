@@ -1,0 +1,74 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  
+
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-cell {
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  width: 15px;
+  height: 15px;
+}
+
+.grid-cell-border {
+  background-color: #000000;
+}
+
+.grid-cell-snake {
+  background-color: #000000;
+}
+
+.grid-cell-snack {
+  background-color: blue;
+}
+
+.grid-cell-hit {
+  background-color: red;
+}
+.grid-records{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+  width:10%;
+  padding-top:20px;
+  
+}
+.use-flexbox{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:200px;
+  height:150px;
+}
+.use-flexbox div{
+  width:100px;
+  height:50px;
+  background:#099;
+}
+.pic{
+  width: 50%;
+  height:50%;
+}
+.record_list{
+  padding-left:100px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left:200px;
+}
+.name_score{
+  margin:auto;
+  padding-bottom:30px;
+}
