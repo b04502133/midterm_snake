@@ -1,5 +1,8 @@
 Midterm_snake
 ===
+## project名稱
+
+JOJO's Snake
 
 ## 簡介
 
@@ -8,10 +11,17 @@ Midterm_snake
 
 使用/操作方式
 ---
-* 安裝設定
 ```gherkin=
 git clone git@github.com:b04502133/midterm_snake.git
 cd midterm_snake
+```
+* SERVER設定
+```gherkin=
+vim backend/.env 
+```
+將.env檔內之DB更改為個人之mongodb URL
+* 安裝設定
+```gherkin=
 cd backend && npm install 
 cd client && npm install 
 cd .. && npm run dev
@@ -39,9 +49,8 @@ cd .. && npm run dev
      
     
 ## 心得
-這次實在是太晚才開始了，起手時又乾愣了三天不知該如何下手，
-到最後原本打算使用socket.io實作讓多人同時進入遊戲的功能就 
-無法完成，也沒有完善css讓整體較美觀。
-
-但也因為有這次的練習對於Node.js及React.js有了小小小小的認識
+這次起手時乾愣了三天不知該如何下手，到最後原本
+打算使用socket.io實作讓多人同時進入遊戲的功能
+就無法完成，也沒有完善css讓整體較美觀。
+但因為這次的練習對於Node.js及React.js有了小小小小的認識
 ，期末勢必要提早開始！
